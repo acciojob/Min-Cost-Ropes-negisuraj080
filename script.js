@@ -1,5 +1,6 @@
 function mincost(arr)
 { 
+	totalCost = 0;
 	arr.sort((a, b) => b - a);
  while (arr.length > 1) { // (n - 1)
      let currentCost = arr[arr.length - 1] + arr[arr.length - 2];
