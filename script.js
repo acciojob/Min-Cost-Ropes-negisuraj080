@@ -10,6 +10,7 @@ function mincost(arr)
      arr.push(currentCost);
      arr.sort((a, b) => b - a); // (nlogn)
  }
+	return totalCost;
 //write your code here
 // return the min cost
   
